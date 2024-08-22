@@ -1,0 +1,127 @@
+* {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+body {
+    background: linear-gradient(to right, rgb(218, 96, 116), rgb(185, 137, 215));
+}
+
+.TopHeaderHolder {
+    background: linear-gradient(to right, rgb(251, 156, 171), rgb(185, 137, 215) , rgb(123, 32, 180)  );
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 26px;
+}
+
+.Logo {
+    width: 30%;
+    position: fixed;
+}
+.SearchHolder{
+    display: flex;
+    border: none;
+    margin-left: 35%;
+    margin-top: 12px;
+}
+.SearchInput{
+    padding: 12px;
+    border: none;
+    width: 50%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.SearchBtn{
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px ;
+}
+.SideBar {
+    background: linear-gradient(to right, rgb(218, 96, 116), rgb(185, 137, 215));
+    border: 1px solid black;
+    position: fixed;
+    margin-top: 89px;
+    width: 18%;
+    height: 89.2vh;
+}
+.BtnStyle{
+    margin-top: 20px;
+    padding: 12px;
+    width: 100%;
+    text-align: left;
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.SideBarLogoHolder{
+    width: 100%;
+    margin-top: 100%;
+    
+}
+.SideBarLogo{
+    width: 90%;
+    margin-left: 10px;
+    display: flex;
+}
+.Feed{
+    display: inline-block;
+    height: 100%;
+    width: 78%;
+    border: 1px solid white;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.post-container {
+    margin-top: 20px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.user-info {
+    font-size: 14px;
+}
+.user-info .username {
+    font-weight: bold;
+}
+.post-content {
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.post-image {
+    width: 100%;}
+.post-footer {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.like-comment {
+    display: flex;
+    gap: 16px;
+}
+.like-comment span {
+    font-size: 14px;
+    cursor: pointer;
+    color: #888;
+}
+.like-comment span:hover {
+    color: #555;
+}

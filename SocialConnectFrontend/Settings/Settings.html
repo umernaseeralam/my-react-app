@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="./Settings.css">
+</head>
+<body>
+    <div class="TopHeaderHolder">
+        <div><img class="Logo" src="../assets/SocialConnect.svg" alt="Logo">
+        <div class="SearchHolder">
+            <input placeholder="Search" class="SearchInput" type="text"><button class="SearchBtn">Search</button></div>
+        </div> 
+    </div>
+    <div class="SideBar">
+        <h2 class="MenuText">Menu</h2>
+        <div class="BtnHolder">
+            <button class="ProfileBtn BtnStyle">Profile</button>
+        </div>
+        <div class="FeedHolder">
+            <button class="FeedBtn BtnStyle">Feed</button>
+        </div>
+        <div class="SettingsHolder">
+            <button class="SettingsBtn BtnStyle">Settings</button>
+        </div>
+        <div class="SideBarLogoHolder">
+            <img class="SideBarLogo" src="../assets/SocialConnectLogoWithOutline.svg" alt="Logo">
+        </div>
+    </div>
+
+    <div class="Settings">
+        <h2 class="SettingsTitle">Settings</h2>
+        <form class="SettingsForm">
+            <div class="FormGroup">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" class="SettingsInput">
+            </div>
+            <div class="FormGroup">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="SettingsInput">
+            </div>
+            <div class="FormGroup">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" class="SettingsInput">
+            </div>
+            <div class="FormGroup">
+                <label for="notifications">Notifications</label>
+                <select id="notifications" name="notifications" class="SettingsSelect">
+                    <option value="all">All</option>
+                    <option value="mentions">Mentions Only</option>
+                    <option value="none">None</option>
+                </select>
+            </div>
+            <button type="submit" class="SaveBtn">Save Changes</button>
+        </form>
+    </div>
+</body>
+</html>
